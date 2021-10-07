@@ -1,94 +1,120 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>app</title>
+    <head><title>Alone Website</title>
         <link rel="stylesheet" href="style.css" type="text/css">
     </head>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <body>
-        <div id="lang">
+        <body>
+            <div class="head">
+                <center>
+                    <div class="title">
+                        <h1>AL<span style="color: rgb(229, 255, 0);">O</span>NE</h1>
+                    </div>
+                </center>
+            </div> 
+            <center>
+            <div id="login">
+                <div class="cont">
+                    Login
+                </div>
+                <div class="ip1">
+                    <input type="text" placeholder="name" id="name">
+                </div>
+                <div class="ip2">
+                    <input type="number" placeholder="phone" id="num">
+                </div>
+                <div id="sub">
+                     <button type="button" onclick="submit()" id="sub1">Submit</button>
+                </div>
+            </div>
+           </center>
+        
+        <div id="allhead">        
+               <center>
+            <div class="menu">
+                <button type="button" onclick="hom()" id="hom1">Home</button>
+                <button type="button" onclick="mv()" id="mv1">Movies</button>
+                <button type="button" onclick="song()" id="song1">Song</button>
+                <button type="button" onclick="dol()" id="dol1">Doll</button>
+                <button type="button" onclick="Tiktok()" id="tiktok1">Tiktok</button>
+                <button type="button" onclick="ab1()" id="about1">ABOUT</button>
+            </div>
+              </center>
+              <hr id="under1" style="height: 1px;">
+        </div>  
+            <div id="metext">
+                <div id="name">
+                    <h1>Info</h1>
+                </div>
+                <div class="pic">
+                    <img src="B612_20210107_165501_743.jpg" alt="" height="100%" width="100%">
+                </div>
+               <div class="text">
+                    <p>NAME&nbsp;&nbsp;&nbsp;:CHIN THANAK<br>
+                       SEX&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:MEL<br>
+                       OLD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:20years old<br>
+                       Address: Roungkor, Baray, Prey Chor, Kampong Cham<br>
+                       Major&nbsp;&nbsp;&nbsp;&nbsp;:IT At Western University(KPC)<br>
+                       Years&nbsp;&nbsp;&nbsp;&nbsp;:Years 1</p>
+                </div>
+                <div id="close1">
+                    <button type="button" onclick="ab2()" id="close">CLOSE</button>
+                </div>
+            </div>
+            
+            <center>
+                <div id="qu">
+            <h1>
+                <span style="color: rgb(255, 0, 0);">Hello!</span> <span style="color: rgb(255, 208, 0);">We</span>lcome here!
+            </h1>
+                </div>
+            </center>
+    <center>
+        <div id="allsong"> 
+            <hr id="under2" style="height: 1px;">
+            <div class="box1">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/LoYa9wHPDtI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             <div class="box2">
-                <div class="heading2">
-                    Setup Language!
-                </div>
-                <div class="bo">
-                    <button type="button" id="confirm1" onclick="op1()">Khmer</button>
-                </div>
+                   <iframe width="100%" height="100%" src="https://www.youtube.com/embed/VP-bLvb-rPw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="box2">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/UvQggUEOm5g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
         </div>
-        <div id="khmer">
-        <center>
-            <div class="tit">
-                តើអ្នកចង់ទាយលើអ្វី?
+
+        <div id="allmv"> 
+            <hr id="under2" style="height: 1px;">
+            <div class="box1">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/QrblH2LxNZw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-        <div class="menu">
-            <button type="button" onclick="men1()" id="s1">ទាយឈ្មោះ</button>
-           
-        </div>
-        </center>
-        <center>
-        <div id="ip1">
-            <input type="text" placeholder="Name in english" id="name">
-            <input type="text" placeholder="Enter old" id="old">
-        </div>
-        <div id="ip4">
-            <input type="text" placeholder="ឈ្មោះតួប្រុស" id="name1">
-            <input type="text" placeholder="ឈ្មោះតួស្រី" id="name2">
-        </div>
-       </center>
-        <center>
-            <div id="ok">
-            <button type="button" onclick="showcustom()" id="show">show</button>
+            <div class="box2">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/FtCslvCjZEY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
-        </center>
-        <div id="customAlert">
-            <div class="box">
-                <div class="heading">
-                    លទ្ធផលរបស់អ្នក
-                </div>
-                <div id="content1">
-                    <p>អ្នកគឺជាមនុស្សដែលមានលក្ខណៈពិសេស!<br>អ្នកនឹងទទួលបាននូវអ្វីដែលអ្នកប្រាថ្នា<br>អ្នកនឹកមានលាភសំណានៅក្នុងឆ្នាំនេះ</p>
-                </div>
-                <div id="content2">
-                    <p>អ្នកគឺជាមនុស្សដែលមានលក្ខណៈពិសេស!<br>ជាមនុស្សស្មោះមហាស្មោះ<br>អ្នកជាក្មេងឧស្សា​ តែលេងសើចច្រើន<br>រាល់ថ្ងៃលួចស្រឡាញ់កូនគេ</p>
-                </div>
-                <div id="content3">
-                    <p>អ្នកគឺជាមនុស្សចូលចិត្តសប្បយ<br>សង្សាច្រេីន តែស្មោះ99%<br>អ្នកនឹករៀបការនៅក្នុងឆ្នាំ២០២៦ខាងមុខ</p>
-                </div>  
-                <div id="content4">
-                    <p>អស់ហ្ស៊ីន<br>!<br>ហាសហា</p>
-                </div>  
-                <div id="content5">
-                    <p>ពេញវ័យហើយ<br>ល្មមម៉ង<br>ហាសហា</p>
-                </div> 
-                <div id="content6">
-                    <p>បើដូងដែក<br>មានប្ដីហើយ<br>ហិហិ</p>
-                </div> 
-                <div id="content7">
-                    <p>កូនពីរហើយ<br>ហេតុអ្វីថាអត់ទាន់មានប្ដី<br>ហាសហា</p>
-                </div> 
-                <div id="content8">
-                    <p>ស្នោះលុះក្ស័យ<br>ស្រឡាញ់មួយដឹងមួយ<br></p>
-                </div>
-                <div id="content9">
-                    <p>Sad​ រហូត<br>ពូកែDrama<br></p>
-                </div>  
-                <div id="content10">
-                    <p>កំពុងខូចចិត្ត<br>គ្មានអ្នកលួង<br></p>
-                </div>  
-                <div id="content11">
-                    <p>លង់ស្នេហ៍កូនគេ<br>តែមិនហ៊ានសារភាព<br></p>
-                </div>  
-                <div id="content12">
-                    <p>ឆ្នាំក្រោយក្លាយជាសេដ្ធី<br>ឆ្នាំនេះរហាមសិន<br></p>
-                </div>  
-            </div>
-            <button type="button" id="confirm" onclick="hide()">Back</button>
         </div>
-    <script src="javascript.js" type="text/javascript"></script>
-   </div>
-   <center>
-   <div class="ad">
-       Make By "<span style="color: rgb(255, 255, 255);">CHIN THANAK"</span>
-   </div>
-   </center>
+
+        <div id="alldoll"> 
+            <hr id="under2" style="height: 1px;">
+            <div class="box1">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/dT-5pYeQZi0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="box2">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lH6FI8czrfk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+
+        <div id="alltiktok"> 
+            <hr id="under2" style="height: 1px;">
+            <div class="box1">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ISHUbooshxM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="box2">
+                <iframe width="100%" height="100%" src="https://www.youtube.com/embed/kByyABsvHMo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </center>  
+</div>   
+            <script src="javascript.js" type="text/javascript"></script>
     </body>
 </html>
