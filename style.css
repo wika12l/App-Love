@@ -1,22 +1,27 @@
 body{
     font-family: sans-serif;
     margin: 0;
+    padding: 0;
+    background-color: white;
     width: 100%;
-    background-size: cover;
     height: 100vh;
-    background-image: url("download.jpg");
+}
+.over{
+    width: 100%;
+    height: 100vh;
+    background: rgb(0, 0, 0, 0.5);
 }
 #allhead{
-    display: none;
-    top: -3cm;
+    float: left;
+    width: 100%;
+    background-color: rgb(11, 14, 14);
+    top: 0;
     position:sticky;
 }
 .head{
-    opacity: .9;
     float: left;
     width: 100%;
-    height: 3cm;
-    
+    height: 3cm; 
 }
 .title h1{
     margin-top: 30px;
@@ -49,56 +54,65 @@ body{
     float: left;
 }
 #qu{
-    display: none;
-    padding-top: 8cm;
+    color: whitesmoke;
+    padding-top: 6cm;
     font-size: 30px;
 }
 #hom1{
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
     cursor: pointer;
-    margin-top: 0.55cm;
     font-size: 20px;
     height: 1cm;
     width: 3cm;
-    border-radius: 40px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(230, 233, 230);
+    border-top-right-radius: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(31, 30, 30);
 }
 #mv1{
+    margin-top: 17px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
     cursor: pointer;
-    margin-top: 0.55cm;
     font-size: 20px;
     height: 1cm;
     width: 3cm;
-    border-radius: 40px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(230, 233, 230);
+    border-top-right-radius: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(231, 197, 0);
 }
 #song1{
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
     cursor: pointer;
     font-size: 20px;
     height: 1cm;
     width: 3cm;
-    border-radius: 40px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(230, 233, 230);
+    border-top-right-radius: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(206, 5, 5);
 }
 #dol1{
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
     cursor: pointer;
     font-size: 20px;
     height: 1cm;
     width: 3cm;
-    border-radius: 40px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(230, 233, 230);
+    border-top-right-radius: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(216, 0, 119);
 }
 #tiktok1{
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
     cursor: pointer;
     font-size: 20px;
     height: 1cm;
     width: 3cm;
-    border-radius: 40px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(230, 233, 230);
+    border-top-right-radius: 40px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(1, 56, 207);
 }
 #about1{
     border-top-left-radius: 40px;
@@ -108,13 +122,13 @@ body{
     height: 1cm;
     width: 3cm;
     border-top-right-radius: 40px;
-    color: rgb(0, 0, 0);
-    background-color: rgb(230, 233, 230);
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 153, 0);
 }
 #metext{
     top: 0cm;
     position: sticky;
-    margin-left: 26.5%;
+    margin-left: 26.85%;
     float: left;
     display: none;
     z-index: 999;
@@ -153,6 +167,7 @@ body{
     padding-left: 1cm;
 }
 #under1{
+    display: none;
     width: 100%;
     float: left;
     margin-top: 3px;
@@ -164,21 +179,12 @@ body{
     margin-top: 0cm;
     box-shadow: 0px 1px 3px;
 }
-.fram{
-    margin-left: 5%;
-    float: left;
-    width: 90%;
-    height: 20cm;
-    margin-top: -5.5px;
-    background-color: burlywood;
-}
 .box1{
     margin-top: 10px;
     margin-left: 10px;
     float: left;
     width: 48.7%;
     height: 8cm;
-    background-color: pink;
 }
 .box2{
     margin-top: 10px;
@@ -186,7 +192,12 @@ body{
     float:left;
     width: 48.7%;
     height: 8cm;
-    background-color: rgb(223, 223, 223);
+}
+#allvid{
+    display: none;
+    width: 100%;
+    height: 100vh;
+    float: left;
 }
 #allsong{
     display:none ;
@@ -200,44 +211,3 @@ body{
 #alltiktok{
     display: none;
 }
-#login{
-    opacity: .7;
-    margin-top: 5cm;
-    box-shadow: 2px 2px 10px;
-    border: 1px solid gray;
-    border-radius: 5px;
-    overflow: hidden;
-    width: 15cm;
-    height: 10cm;
-    background-color: rgb(20, 18, 18);
-}
-.cont{
-    padding-top: 2cm;
-    color: whitesmoke;
-    border-top-right-radius: 5px;
-    border-top-left-radius: 5px;
-    font-size: 30px;
-}
-.ip1 input{
-    margin-top: 20px;
-    border-radius: 20px;
-    height: 30px;
-    width: 7cm;
-    font-size: 20px;
-}
-.ip2 input{
-    margin-top: 20px;
-    border-radius: 20px;
-    height: 30px;
-    width: 7cm;
-    font-size: 20px;
-}
-#sub1{
-    height: 0.8cm;
-    width: 2cm;
-    background-color: blue;
-    color: whitesmoke;
-    border-radius: 25px;
-    margin-top: 20px;
-}
-
