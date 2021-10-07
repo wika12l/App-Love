@@ -1,285 +1,243 @@
 body{
-    background-color: rgb(0, 179, 185);
     font-family: sans-serif;
+    margin: 0;
+    width: 100%;
+    background-size: cover;
+    height: 100vh;
+    background-image: url("download.jpg");
 }
-.ad{
-    padding-top: 5cm;
+#allhead{
+    display: none;
+    top: -3cm;
+    position:sticky;
+}
+.head{
+    opacity: .9;
+    float: left;
+    width: 100%;
+    height: 3cm;
+    
+}
+.title h1{
+    margin-top: 30px;
     font-size: 50px;
+    color: whitesmoke;
 }
-#khmer{
-    position: -9.;
+#close1{
+    float: left;
+    padding-right: 10px;
+    padding-top: 12px;
+    margin-top: 150px;
+    margin-left: -50px;
+    height: 0.7cm;
+    padding-left: 10px;
 }
-.tit{
-    padding-top: 8cm;
-    font-size: 50px;
-    color: rgb(255, 255, 255);
-    font-family: kh bokor;
+#close{
+    cursor: pointer;
+    border-radius: 40px;
 }
-#kh{
-    display: none;
+#about1{
+    background-color: turquoise;
 }
-#Eng{
-    display: none;
-}
-#ok{
-    display: none;
+#about2{
+    background-color: turquoise;
 }
 .menu{
-    margin-top: 2cm;
-}
-#s1{
-    height: 3cm;
-    width: 6cm;
-    font-size: 35px;
-    font-family: kh bokor;
-    background-color: rgb(36, 180, 7);
-    border-radius: 40px;
-    color: whitesmoke;
-}
-#s4{
+    margin: auto;
+    width: 100%;
     height: 2cm;
-    width: 5cm;
-    font-size: 35px;
-    font-family: kh bokor;
-    background-color: rgb(190, 12, 226);
-    border-radius: 40px;
-    color: whitesmoke;
+    float: left;
 }
-#show{
-    background-color: rgb(8, 42, 196);
-    color: whitesmoke;
-    margin-top: 2cm;
-    height: 3cm;
-    width: 6cm;
-    font-size: 60px;
-    border-radius: 50px;
-}
-#ip1{
+#qu{
     display: none;
-}
-#ip1 input{
-    margin-top: 1.5cm;
-    height: 3cm;
-    width: 20cm;
-    font-size: 60px;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 50px;
-    background-color: rgb(209, 209, 209);
-    color: rgb(0, 0, 0);
-}
-#ip2{
-    display: none;
-}
-#ip2 input{
-    margin-top: 1.5cm;
-    height: 3cm;
-    width: 20cm;
-    font-size: 60px;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 50px;
-    background-color: rgb(209, 209, 209);
-    color: rgb(0, 0, 0);
-}
-#ip3{
-    display: none;
-}
-#ip3 input{
-    margin-top: 1.5cm;
-    height: 3cm;
-    width: 6.6cm;
-    font-size: 60px;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 50px;
-    background-color: rgb(209, 209, 209);
-    color: rgb(0, 0, 0);
-}
-#ip4{
-    display: none;
-}
-#ip4 input{
-    margin-top: 1.5cm;
-    height: 3cm;
-    width: 10cm;
-    font-size: 60px;
-    border-bottom-left-radius: 50px;
-    border-top-right-radius: 50px;
-    background-color: rgb(209, 209, 209);
-    color: rgb(0, 0, 0);
-}
-#customAlert{
-    display: none;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 999;
-    background-color: rgba(247, 243, 243, 0.75);
-}.box{
-    background-color: rgba(17, 176, 204, 0.849);
-    border-radius: 5px;
-    margin-top: 250px;
-    margin-left: 40px;
-    height: 690px;
-    width: 900px;
-    text-align: center;
-    box-shadow: 2px 2px 8px black;
-}
-.heading{
-    height: 2cm;
-    background-color: rgb(9, 155, 57);
-    color: white;
-    font-size: 50px;
-    padding: 5px;
-    padding-top: 15px;
-}
-#content1{
-    display: none;
-    margin-top: 30px;
-}
-#content1 p{
-    font-size: 50px;
-    color: whitesmoke;
-}
-#content2{
-    display: none;
-    margin-top: 30px;
-}
-#content2 p{
-    font-size: 50px;
-    color: whitesmoke;
-}
-#content3{
-    display: none;
-    margin-top: 30px;
-}
-#content3 p{
-    font-size: 50px;
-    color: whitesmoke;
-}
-#content4{
-    display: none;
-    margin-top: 30px;
-}
-#content4 p{
-    font-size: 50px;
-    color: whitesmoke;
-}
-#content5{
-    display: none;
-    margin-top: 30px;
-}
-#content5 p{
-    font-size: 50px;
-    color: whitesmoke;
-}
-#content6{
-    display: none;
-    margin-top: 30px;
-}
-#content6 p{
-    font-size: 50px;
-    color: whitesmoke;
-}
-#content7{
-    display: none;
-    margin-top: 30px;
-}
-#content7 p{
-    font-size: 50px;
-    color: whitesmoke;
-}
-#content8{
-    display: none;
-    margin-top: 30px;
-}
-#content8 p{
-    font-size: 50px;
-    color: whitesmoke;
-}
-#content9{
-    display: none;
-    margin-top: 30px;
-}
-#content9 p{
-    font-size: 50px;
-    color: whitesmoke;
-}
-#content10{
-    display: none;
-    margin-top: 30px;
-}
-#content10 p{
-    font-size: 50px;
-    color: whitesmoke;
-}
-#content11{
-    display: none;
-    margin-top: 30px;
-}
-#content11 p{
-    font-size: 50px;
-    color: whitesmoke;
-}
-#content12{
-    display: none;
-    margin-top: 30px;
-}
-#content12 p{
-    font-size: 50px;
-    color: whitesmoke;
-}
-#confirm{
+    padding-top: 8cm;
     font-size: 30px;
-    height: 80px;
-    width: 170px;
-    border-radius: 8px;
-    background-color: teal;
-    margin-top: -100px;
-    cursor: pointer;
-    color: white;
-    margin-left: 720px;
 }
-#lang{
-   
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+#hom1{
+    cursor: pointer;
+    margin-top: 0.55cm;
+    font-size: 20px;
+    height: 1cm;
+    width: 3cm;
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(230, 233, 230);
+}
+#mv1{
+    cursor: pointer;
+    margin-top: 0.55cm;
+    font-size: 20px;
+    height: 1cm;
+    width: 3cm;
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(230, 233, 230);
+}
+#song1{
+    cursor: pointer;
+    font-size: 20px;
+    height: 1cm;
+    width: 3cm;
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(230, 233, 230);
+}
+#dol1{
+    cursor: pointer;
+    font-size: 20px;
+    height: 1cm;
+    width: 3cm;
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(230, 233, 230);
+}
+#tiktok1{
+    cursor: pointer;
+    font-size: 20px;
+    height: 1cm;
+    width: 3cm;
+    border-radius: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(230, 233, 230);
+}
+#about1{
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    height: 1cm;
+    width: 3cm;
+    border-top-right-radius: 40px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(230, 233, 230);
+}
+#metext{
+    top: 0cm;
+    position: sticky;
+    margin-left: 26.5%;
+    float: left;
+    display: none;
     z-index: 999;
-    background-color: rgb(255, 255, 255,0.75);
+    height: 6cm;
+    width: 15.4cm;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+
+    box-shadow: 2px 2px 10px;
+}
+#name h1{
+    margin: 0;
+    padding-top: 5px;
+    height: 0.5cm;
+    text-align: center;
+    box-shadow: 1px 1px 5px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    background-color: rgb(146, 7, 84);
+    width: 100%;
+    border-top-left-radius:5px;
+    border-top-right-radius: 5px;
+}
+.pic{
+    border: 2px solid rgb(63, 63, 63);
+    float: left;
+    height: 3.7cm;
+    width: 2.9cm;
+    margin-left: 9px;
+    margin-top: 3px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.text p{
+    float: left;
+    padding-left: 1cm;
+}
+#under1{
+    width: 100%;
+    float: left;
+    margin-top: 3px;
+    box-shadow: 0px 1px 5px;
+}
+#under2{
+    width: 100%;
+    float: left;
+    margin-top: 0cm;
+    box-shadow: 0px 1px 3px;
+}
+.fram{
+    margin-left: 5%;
+    float: left;
+    width: 90%;
+    height: 20cm;
+    margin-top: -5.5px;
+    background-color: burlywood;
+}
+.box1{
+    margin-top: 10px;
+    margin-left: 10px;
+    float: left;
+    width: 48.7%;
+    height: 8cm;
+    background-color: pink;
 }
 .box2{
-    background-color: rgb(43, 192, 172);
+    margin-top: 10px;
+    margin-left: 10px;
+    float:left;
+    width: 48.7%;
+    height: 8cm;
+    background-color: rgb(223, 223, 223);
+}
+#allsong{
+    display:none ;
+}
+#allmv{
+    display: none;
+}
+#alldoll{
+    display: none;
+}
+#alltiktok{
+    display: none;
+}
+#login{
+    opacity: .7;
+    margin-top: 5cm;
+    box-shadow: 2px 2px 10px;
+    border: 1px solid gray;
     border-radius: 5px;
-    margin-top: 300px;
-    margin-left: 40px;
-    height: 640px;
-    width: 900px;
-    text-align: center;
-    box-shadow: 2px 2px 8px black;
+    overflow: hidden;
+    width: 15cm;
+    height: 10cm;
+    background-color: rgb(20, 18, 18);
 }
-.heading2{
-    height: 2cm;
-    background-color: rgb(9, 155, 57);
-    color: white;
-    font-size: 50px;
-    padding: 5px;
-    padding-top: 15px;
+.cont{
+    padding-top: 2cm;
+    color: whitesmoke;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    font-size: 30px;
 }
-#confirm1{
-    float: left;
-    font-size: 50px;
-    height: 100px;
-    width: 200px;
+.ip1 input{
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 30px;
+    width: 7cm;
+    font-size: 20px;
+}
+.ip2 input{
+    margin-top: 20px;
+    border-radius: 20px;
+    height: 30px;
+    width: 7cm;
+    font-size: 20px;
+}
+#sub1{
+    height: 0.8cm;
+    width: 2cm;
+    background-color: blue;
+    color: whitesmoke;
     border-radius: 25px;
-    background-color: rgb(17, 128, 35);
-    margin-top: 210px;
-    cursor: pointer;
-    color: white;
-    margin-left: 20px;
+    margin-top: 20px;
 }
-.bo{
-    margin-left: 330px;
-}
+
