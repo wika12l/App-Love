@@ -27,20 +27,21 @@
 </head>
 <body>
     <!--Head of window /////////////////////////////////////////////////////////////////////////////////////////////////////-->
-    <div class="head">
-        <div class="container head-width">
-            <img class="logo" src="logo.png" alt="" height="90px" width="90px">
-            <P class="name">AL<span style="color: rgb(255, 0, 55);">O</span>NE</P>
-            <img class="ads img-responsive" src="https://ads.sabay.com/images/334e8167d891bf7946eeee78dfb63f06.jpg" alt="">
+    <div id="head">
+        <div id="bcont">
+            <div class="container" id="head-width">
+                <img id="logo" src="logo.png" alt="" height="90px" width="90px">
+                <P class="name">AL<span style="color: rgb(255, 0, 55);">O</span>NE</P>
+                <img class="ads img-responsive" src="https://ads.sabay.com/images/334e8167d891bf7946eeee78dfb63f06.jpg" alt="">
+            </div>
         </div>
-
-        <div class="allheadphone">
+        <div class="allheadphone" style=" box-shadow: 0px 3px 5px gray; height: 1.2cm;">
             <div class=" col-4 head-phone" style=" float: left;">
-            <img id="menu-logo-phone1" src="menu.png" alt="" width="30px" height="30px">
+            <img id="menu-logo-phone1" src="menu.png" onclick="men()" alt="" width="30px" height="20px">
             </div>
 
             <div class=" col-4 head-phone menu-logo-phone2" style=" float: left;">
-            A<span style="color: lime;">l</span>one
+            A<span style="color: rgb(255, 0, 0);">l</span>one
             </div>
             <div class=" col-4 head-phone" style=" float: left;">
             <img class="menu-logo-phone3" src="logo.png" alt="" width="40px" height="40px">
@@ -50,7 +51,7 @@
 </div>
 <!--menu drop for phone//////////////////////////////////////////////////////////////////////-->
     <div id="items-menu-phone" style="top: 1.3cm; position: sticky;">
-        <div class="head-menu-phone" style="background-color: rgb(255, 0, 64); float: left; width: 100%; height: 1cm;">
+        <div class="head-menu-phone" style="background-color: #009fbc; float: left; width: 100%; height: 1cm;">
             <div class="col-md-12 col-sm-12 col-12">
                 <img src="home-3-xl.png" alt="" height="25px" width="25px" style="margin-top: 6px;">
             </div>
@@ -113,20 +114,33 @@
     </div>
     </div>
 
-    <div class="head1" style="float: left; margin-bottom: 10px; width: 100%; background-color: rgb(22, 24, 26);position:sticky; top: 1.3cm;">
+    <div class="head1" style="color: rgb(255, 255, 255); float: left; margin-bottom: 10px; width: 100%; background-color: rgb(255, 255, 255);position:sticky; top: 1.3cm; box-shadow: 0px 2px 4px gray;">
          a  
     </div>
 
     <div class="container ma">
-        <div class="altt">
+        <div id="altt">
+            <div id="losea">
+                <img src="search.png" onclick="search1()" alt="" height="40px" width="40px">
+            </div>
+
+            <div id="losea1">
+                <img src="close.png" onclick="search2()" alt="" height="40px" width="40px">
+            </div>
+            <div id="losea2">
+                <p> <b> <span style="color: rgb(255, 208, 0);">|</span></b></p>
+            </div>
+            <div id="losea3">
+                <img src="https://ads.sabay.com/images/334e8167d891bf7946eeee78dfb63f06.jpg" alt="" height="100%" width="100%">
+            </div>
             <div id="search">
                 <div class="ip">
                     <form id="live-search" method="post">
                         <fieldset>
-                          <input type="text" class="text-input" id="filter" placeholder="Search..." />
+                          <input type="text" lang="khmer" class="text-input" id="filter" placeholder="Search..." />
                           <span id="filter-count"></span>
                         </fieldset>
-                      </form>
+                    </form>
                 </div>
             </div>
         </div>
@@ -172,7 +186,7 @@
 
 <!--video box1///////////////////////////////////////////////////////////////////-->
 <div class="BB">
-    <div class="container" style="background-color: black;">
+    <div class="container">
         <div class="controll" id="song">
             <div class="block1">
                 <div class="item #1 លាទាំងញញឹម ខាន់ខាវ">
@@ -183,9 +197,9 @@
                         </div>
                     </div>
                 </div>
-                <div class="item #2 រកស៊ីហៃអើ នាយចឺម">
+                <div class="item #2 រកស៊ីហៃអើ នាយចឺម" title="រកស៊ីហៃអើ នាយចឺម" id="រកស៊ីហៃអើ នាយចឺម">
                     <div class="box1"​ onclick="okk()">
-                        <img src="vid/vd2.webp" data-id="LoYa9wHPDtI" width="100%" height="100%">
+                        <img src="vid/vd2.jpg" data-id="LoYa9wHPDtI" width="100%" height="100%">
                         <div class="youtube_icon">
                             <img src="" >
                         </div>
@@ -265,7 +279,7 @@
                 </div>
                 <div class="item #12 ដុកទ័រលុយច្រើន​ ផុនផានិត">
                     <div class="box1" onclick="okk()">
-                        <img src="vid/vd12.webp" data-id="AXK5P7Wab-4"  width="100%" height="100%">
+                        <img src="vid/vd12.jpg" data-id="uZZ-OaTbuJc"  width="100%" height="100%">
                         <div class="youtube_icon">
                             <img src="" >
                         </div>
@@ -273,7 +287,7 @@
                 </div>
             </div>
         </div>
-        <div class="forview">
+        <div id="forview">
            <img src="gift/p2.gif" alt="" width="100%" height="100%">
         </div>
         <div class="title">
@@ -289,7 +303,7 @@
 
 <!--video box2///////////////////////////////////////////////////////////////////-->
 <div class="BB">
-    <div class="container" style="background-color: white;">
+    <div class="container">
         <div class="controll" id="com">
             <div class="block1">
                 <div class="box1" onclick="okk()">
@@ -384,7 +398,7 @@
                 </div>
             </div>
         </div>
-        <div class="forview">
+        <div id="forview">
             <img src="gift/p1.gif" alt="" width="100%" height="100%">
         </div>
         <div class="title">
@@ -399,7 +413,7 @@
 
 <!--video box3///////////////////////////////////////////////////////////////////-->
 <div class="BB">
-    <div class="container" style="background-color: rgb(7, 6, 6);">
+    <div class="container">
         <div class="controll" id="com">
             <div class="block1">
                 <div class="box1" onclick="okk()">
@@ -494,7 +508,7 @@
                 </div>
             </div>
         </div>
-        <div class="forview">
+        <div id="forview">
             <img src="gift/p1.gif" alt="" width="100%" height="100%">
         </div>
         <div class="title">
@@ -581,9 +595,12 @@ $(document).ready(function(){
     });
 });
 
+
+
 $(document).ready(function(){
     $('#menu-logo-phone1').click(function(){
         $('#items-menu-phone').slideToggle();
+        $('#altt').slideToggle(0);
         
     });
 });
