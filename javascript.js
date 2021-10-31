@@ -7,7 +7,7 @@ var pil=document.getElementById("menu-logo-phone0");
 var pl=document.getElementById("menu-logo-phone1");
 function okk(){
     vei.style.display='block';
-    pl.style.display='none';
+    pl.style.display='no';
     ne.style.display='none';
 }
 function clos(){
@@ -20,18 +20,21 @@ function admin(){
     a1.style.display='block';
     a2.style.display='none';
     h.style.display='none';
+    vei.style.display='none';
 }
 function about(){
     a2.style.display='block';
     ne.style.display='block';
     a1.style.display='none';
     h.style.display='none';
+    vei.style.display='none';
 }
 function help(){
     a1.style.display='none';
     a2.style.display='none';
     h.style.display='block';
     ne.style.display='block';
+    vei.style.display='none';
 }
 var ad=document.getElementById("losea3");
 var bii=document.getElementById("losea2");
