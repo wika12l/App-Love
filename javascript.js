@@ -33,3 +33,22 @@ function help(){
     h.style.display='block';
     ne.style.display='block';
 }
+var ad=document.getElementById("losea3");
+var bii=document.getElementById("losea2");
+var voo=document.getElementById("losea1");
+var looo=document.getElementById("losea");
+var ss=document.getElementById("search");
+function search1(){
+    bii.style.display='block';
+    ss.style.display='block';
+    looo.style.display='none';
+    voo.style.display='block';
+    ad.style.display='none';
+}
+function search2(){
+    ad.style.display='block';
+    bii.style.display='none';
+    looo.style.display='block';
+    voo.style.display='none'
+    ss.style.display='none'
+}
