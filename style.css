@@ -330,6 +330,7 @@ body::-webkit-scrollbar-thumb
   margin-top: 5.35cm;
 }
 .con p{
+  box-shadow: 0px 2px 4px gray;
   border-bottom: 40px solid rgb(255, 255, 255);
   width: 97.4%;
   height: 390px;
@@ -371,7 +372,7 @@ body::-webkit-scrollbar-thumb
   border-top: 8px solid black;
   border-bottom: 40px solid rgb(255, 255, 255);
   width: 97.4%;
-  height: 360px;
+  height: 480px;
   box-shadow: 0px 2px 4px gray;
 }
 .box1 img:hover{
@@ -439,7 +440,7 @@ body::-webkit-scrollbar-thumb
 }
 .youtube_video{
   width: 651px;
-  height: 350px;
+  height: 400px;
 }
 .con p{
   width: 651px;
@@ -476,7 +477,7 @@ body::-webkit-scrollbar-thumb
 }
 .youtube_video{
   width: 100%;
-  height: 270px;
+  height: 310px;
 }
 .con p{
   width: 100%;
@@ -610,7 +611,7 @@ body::-webkit-scrollbar-thumb
   border-top: none;
   margin: auto;
   width: 100%;
-  height: 250px;
+  height: 450px;
 }
 .con p{
   margin: auto;
@@ -771,7 +772,7 @@ body{
   .youtube_video{
     margin: auto;
     width: 100%;
-    height: 200px;
+    height: 325px;
   }
   .con p{
     margin: auto;
