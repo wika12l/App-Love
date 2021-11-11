@@ -3,13 +3,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alone</title>
+    <title>Coffee_app</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="screen" />
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
@@ -18,554 +18,288 @@
     <meta name="mobile-web-app-capable" content="yes"/>
     <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
     <meta name="apple-mobile-web-app-title" content="Sabay news"/>
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <!--<link rel="stylesheet" href="css/font.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/jquery3.1.0.min.js"></script>-->
 </head>
 <body>
-    <!--Head of window /////////////////////////////////////////////////////////////////////////////////////////////////////-->
     <div id="head">
-        <div id="bcont">
-            <div class="container" id="head-width">
-                <img id="logo" src="logo.png" alt="" height="90px" width="90px">
-                <P class="name">AL<span style="color: rgb(255, 0, 55);">O</span>NE</P>
-                <img class="ads img-responsive" src="https://ads.sabay.com/images/334e8167d891bf7946eeee78dfb63f06.jpg" alt="">
-            </div>
-        </div>
-        <div class="allheadphone" style=" box-shadow: 0px 3px 5px gray; height: 1.2cm;">
-            <div class=" col-4 head-phone" style=" float: left;">
-            <img id="menu-logo-phone1" src="menu.png" onclick="men()" alt="" width="30px" height="20px">
+        <div class="container ma">
+            <div id="head-width">
+                <div id="logo">
+                    <img id="img1" src="icon/coffee1.png" alt="" width="100%" height="100%">
+                    <img id="img2" src="icon/menu.png" alt="" width="100%" height="100%">
+                </div>
+
+                <div id="menu">
+                    <ul>
+                        <li><a href="file:///C:/Users/Thanak/Documents/Coffee%20app/index.html#">Home</a></li>
+                        <li><a id="m5" onclick="videos()" href="file:///C:/Users/Thanak/Documents/Coffee%20app/video.html">Video</a></li>
+                        <li><a id="m4" href="file:///C:/Users/Thanak/Documents/Coffee%20app/Doll.html">Doll</a></li>
+                        <li><a id="m3" href="#"><b>...</b></a></li>
+                        <li><a id="m2" href="#">Shoping</a></li>
+                        <li><a id="m1" href="#">More</a></li>
+                    </ul>
+                </div>
+
+                <div id="sell">
+                    <img src="icon/buy.png" alt="" width="20px" height="25px">
+                </div>
+
+                <div id="search">
+                    <img id="x1" src="icon/search.png" onclick="see()" alt="" height="25px" width="25px">
+                    <img id="xx" src="icon/x.png" onclick="see1()" alt="" height="25px" width="25px">
+                </div>
             </div>
 
-            <div class=" col-4 head-phone menu-logo-phone2" style=" float: left;">
-            A<span style="color: rgb(255, 0, 0);">l</span>one
-            </div>
-            <div class=" col-4 head-phone" style=" float: left;">
-            <img class="menu-logo-phone3" src="logo.png" alt="" width="40px" height="40px">
-            </div>
-        </div>
-    </div>
-</div>
-<!--menu drop for phone//////////////////////////////////////////////////////////////////////-->
-    <div id="items-menu-phone" style="top: 1.3cm; position: sticky;">
-        <div class="head-menu-phone" style="background-color: #009fbc; float: left; width: 100%; height: 1cm;">
-            <div class="col-md-12 col-sm-12 col-12">
-                <img src="home-3-xl.png" alt="" height="25px" width="25px" style="margin-top: 6px;">
-            </div>
-        </div>
-        <div class="col-md-6 col-sm-6 col-6 text-menu-phone" style="background: rgba(0, 0, 0, 0.95); float: left; border-right: 4px solid #009fbc">
-            <ul>
-                <li><a href="#song">ចម្រៀងខ្មែរ</a></li>
-                <li><a href="#com">កំប្លែងថ្មីៗ</a></li>
-                <li><a href="#">ចម្រៀង</a></li>
-                <li><a href="#">ចម្រៀង</a></li>
-            </ul>
-        </div>
-
-        <div class="col-md-6 col-sm-6 col-6 text-menu-phone" style="background: rgba(0, 0, 0, 0.95); float: left;">
-            <ul>
-                <li><a href="#">ចម្រៀង</a></li>
-                <li onclick="help()"><a href="#" class="n">Help</a></li>
-                <li onclick="about()"><a href="#" class="n">About</a></li>
-                <li  onclick="admin()"><a href="#" class="n">Admin</a></li>
-            </ul>
-        </div>
-    </div>
-<!--menu for window////////////////////////////////////////////////////////////////////////-->
-    <div id="menu">
-        <div class="container" id=" menu-width">
-            <div id="home-width">
-                <img class="home" src="home-3-xl.png" alt="" width="25px" height="25px">  
-            </div>
-            <div id="menu-items">
-                <ul>
-                    <li><a href="#song">ចម្រៀងខ្មែរ</a></li>
-                    <li><a href="#com">កំប្លែងថ្មីៗ</a></li>
-                    <li><a href="#">វីដេអូទូទៅ</a></li>
-                    <li><a href="#">រឿងចម្រុះ</a></li>
-                    <li><a href="#">ប្លែកៗ</a></li>
-                    <li><a href="#" id="m3">កម្សាន្ដ</a></li>
-                    <li><a href="#" id="m2">វីដេអូតុក្តា</a></li>
-                    <li><a href="#" id="m1">ផ្សេងៗ</a></li>
-                    <li class="more"><a href="#"><span style="color: rgb(0, 0, 0);">...</span></a></li>
-                </ul>
-            </div>
-        </div>
-    </div>
-<!--drop menu for window///////////////////////////////////////////////////////-->
-    <div class="container drop" style="top: -3.17cm; position: sticky;">
-    <div id="more1">
-        <ul>
-            <div class="n0">
-                <li><a href="#">វីដេអូតុក្តា</a></li>
-            </div>
-
-            <div class="n1">
-                <li><a href="#">ផ្សេងៗ</a></li>
-            </div>
-
-            <li onclick="help()"><a href="#" class="n">Help</a></li>
-            <li onclick="about()"><a href="#" class="n">About</a></li>
-            <li  onclick="admin()"><a href="#" class="n">Admin</a></li>
-        </ul>
-    </div>
-    </div>
-
-    <div class="head1" style="color: rgb(255, 255, 255); float: left; margin-bottom: 10px; width: 100%; background-color: rgb(255, 255, 255);position:sticky; top: 1.3cm; box-shadow: 0px 2px 4px gray;">
-         a  
-    </div>
-
-    <div class="container ma">
-        <div id="altt">
-            <div id="losea">
-                <img src="search.png" onclick="search1()" alt="" height="40px" width="40px">
-            </div>
-
-            <div id="losea1">
-                <img src="close.png" onclick="search2()" alt="" height="40px" width="40px">
-            </div>
-            <div id="losea2">
-                <p> <b> <span style="color: rgb(255, 208, 0);">|</span></b></p>
-            </div>
-            <div id="losea3">
-                <img src="https://ads.sabay.com/images/334e8167d891bf7946eeee78dfb63f06.jpg" alt="" height="100%" width="100%">
-            </div>
-            <div id="search">
-                <div class="ip">
-                    <form id="live-search" method="post">
-                        <fieldset>
-                          <input type="text" lang="khmer" class="text-input" id="filter" placeholder="Search..." />
-                          <span id="filter-count"></span>
-                        </fieldset>
-                    </form>
+            <div id="recomment-width">
+                <div id="re-tit">
+                    Recomment
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container mx-auto">
-        <div class="alt">
-            <div id="po">
-                <div class="youtube_video">
-                    <iframe width="100%" height="100%" id="video_id" src="https://www.youtube.com/embed/_08Q2hq3U9Q?rel=0"
-                        frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                         allowfullscreen></iframe>
+    <div id="bsearch" style="position: sticky; top: 1.7cm;">
+        <div class="container ma">
+            <div id="ss">
+               
+                <fieldset>
+                    <input type="text" lang="khmer" class="text-input" id="filter" placeholder="Search..." />
+                    <span id="filter-count"></span>
+                </fieldset>
+                
+            </div>
+        </div>
+    </div>
+
+    <div id="content">
+        <div class="container ma">
+            <div id="content-width">
+                <div id="banner">
+                    <div class="mySlides">
+                        <img id="polo" src="img/v1.jpg"  style="width:100%; height: 100%;" >
+                    </div>
+                    <div class="mySlides">
+                        <img src="img/v4.jpg" style="width:100%; height: 100%;" >
+                    </div>
+                    <div class="mySlides">
+                        <img src="img/v5.jpg" style="width:100%; height: 100%;" >
+                    </div>
+                    <div class="mySlides">
+                        <img src="img/v6.jpg" style="width:100%; height: 100%;" >
+                    </div>
+                    <div class="mySlides" id="video">
+                        <img src="img/v7.jpg" style="width:100%; height: 100%;" >
+                    </div>
+                    <div class="mySlides">
+                        <img src="img/v2.jpg" style="width:100%; height: 100%;">
+                    </div>
+                    <div class="mySlides">
+                        <img src="img/v2.jpg" style="width:100%; height: 100%;">
+                    </div>
                 </div>
-                <div class="clos" onclick="clos()">
-                    close | <span style="color: red;">x</span>
+                <a id="prev" onclick="plusSlides(-1)">❮</a>
+                <div id="hovertop">
+                    <p>Good Coffee</p>
+                </div>
+                <a id="next" onclick="plusSlides(1)">❯</a>
+            </div>
+
+            <div id="re1">
+                <div id="block-re">
+                    <div id="row">
+                        <div id="box">
+                            <img src="gift/coffeegift1.jpg" alt="" width="100%" height="100%">
+                        </div>
+                        <div id="title-re">
+                            <p>Hello</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="ad">
+                <img src="gift/coffeegift2.jpg" alt="" width="100%" height="100%">
+            </div>
+            <div id="ad0">
+                <img src="gift/coffeegift3.jpg" alt="" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
+
+    <div id="content2" style="position: absolute; margin-top: -10cm; position: sticky; top: 1.5cm;">
+        <div class="container ma">
+            <div id="content-width">
+                <div id="banner">
+                    <div class="mySlides">
+                            <img id="expandedImg">
+                            <div id="imgtext">
+                        </div>
+                    </div>
+                    <img src="icon/close.png" id="closebtn" onclick="ok()" height="100%" width="100%" alt="">
+                </div>
+                <div id="hovertop">
+                    <p>Coffe</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container mx-auto">
-        <div class="alt">
-            <div id="new">
-                <div class="con">
-                    <div id="admin">
-                        <p>Admin</p>
-                    </div>
-
-                    <div id="help">
-                        <p>Help</p>
-                    </div>
-
-                    <div id="about">
-                        <p>About</p>
-                    </div>
+    <div id="top">
+        <div class="container ma">
+            <div id="top-width">
+                <img src="img/coner.png" alt="" width="100%" height="100%">
+                <div id="top-song">
+                    Current
                 </div>
-                <div class="clos1" onclick="clos()">
-                    close | <span style="color: red;">x</span>
+            </div>
+
+            <div id="top-re">
+                <img src="img/conernew.png" alt="" width="100%" height="100%">
+                <div id="top-song-re">
+                   news
                 </div>
             </div>
         </div>
     </div>
 
-<!--video box1///////////////////////////////////////////////////////////////////-->
-<div class="BB">
-    <div class="container">
-        <div class="controll" id="song">
-            <div class="block1">
-                <div class="item #1 លាទាំងញញឹម ខាន់ខាវ">
-                    <div class="box1" onclick="okk()">
-                        <img src="vid/vd1.webp" data-id="2Q_-zmESFHo" title="nnn" width="100%" height="100%">
-                        <div class="youtube_icon">
-                            <img src="">
-                        </div>
-                    </div>
-                </div>
-                <div class="item #2 រកស៊ីហៃអើ នាយចឺម" title="រកស៊ីហៃអើ នាយចឺម" id="រកស៊ីហៃអើ នាយចឺម">
-                    <div class="box1"​ onclick="okk()">
-                        <img src="vid/vd2.jpg" data-id="LoYa9wHPDtI" width="100%" height="100%">
-                        <div class="youtube_icon">
-                            <img src="" >
-                        </div>
-                    </div>
-                </div>
-                <div class="item #3 ថ្លៃទឹកដោះ​ នាយចឺម">
-                    <div class="box1" onclick="okk()">
-                        <img src="vid/vd3.webp" data-id="VP-bLvb-rPw"  width="100%" height="100%">
-                        <div class="youtube_icon">
-                            <img src="" >
-                        </div>
-                    </div>
-                </div>
-                <div class="item #4 ស្រឡាញ់រាប់ឆ្នាំបានត្រឹមសង្សា">
-                    <div class="box1" onclick="okk()">
-                        <img src="vid/vd4.webp" data-id="vPQ-E_kxpF0" title="nnn" width="100%" height="100%">
-                        <div class="youtube_icon">
-                            <img src="">
-                        </div>
-                    </div>
-                </div>
-                <div class="item #5 អោសង្សាអើយអោយបងសុំទោស​ ខេមរៈសិរីមន្ត">
-                    <div class="box1"​ onclick="okk()">
-                        <img src="vid/vd5.webp" data-id="dCRcbdr5wWc" width="100%" height="100%">
-                        <div class="youtube_icon">
-                            <img src="" >
-                        </div>
-                    </div>
-                </div>
-                <div class="item #6 រាំអញ្ចេក​ ព្រាបសុវត្តិ">
-                    <div class="box1" onclick="okk()">
-                        <img src="vid/vd6.webp" data-id="AXK5P7Wab-4"  width="100%" height="100%">
-                        <div class="youtube_icon">
-                            <img src="" >
-                        </div>
-                    </div>
-                </div>
-                <div class="item #7 ខែក្រោយអូនការ​ នាយចឺម">
-                    <div class="box1" onclick="okk()">
-                        <img src="vid/vd7.webp" data-id="2Q_-zmESFHo" title="nnn" width="100%" height="100%">
-                        <div class="youtube_icon">
-                            <img src="">
-                        </div>
-                    </div>
-                </div>
-                <div class="item #8 ឆ្អឹងអណ្ដែត ពេជ្យថាណា">
-                    <div class="box1"​ onclick="okk()">
-                        <img src="vid/vd8.webp" data-id="LoYa9wHPDtI" width="100%" height="100%">
-                        <div class="youtube_icon">
-                            <img src="" >
-                        </div>
-                    </div>
-                </div>
-                <div class="item #9 បានឡានភ្លេចក្របី​​ ពេជ្យថាណា">
-                    <div class="box1" onclick="okk()">
-                        <img src="vid/vd9.webp"​ data-id="VP-bLvb-rPw"  width="100%" height="100%">
-                        <div class="youtube_icon">
-                            <img src="" >
-                        </div>
-                    </div>
-                </div>
-                <div class="item #10 ទៅលេងភូមិដូនដី​ អនុស្សាវរី">
-                    <div class="box1" onclick="okk()">
-                        <img src="vid/vd10.webp" data-id="vPQ-E_kxpF0" title="nnn" width="100%" height="100%">
-                        <div class="youtube_icon">
-                            <img src="">
-                        </div>
-                    </div>
-                </div>
-                <div class="item #11 រៀបការថ្ងៃណា">
-                    <div class="box1"​ onclick="okk()">
-                        <img src="vid/vd11.webp" data-id="dCRcbdr5wWc" width="100%" height="100%">
-                        <div class="youtube_icon">
-                            <img src="" >
-                        </div>
-                    </div>
-                </div>
-                <div class="item #12 ដុកទ័រលុយច្រើន​ ផុនផានិត">
-                    <div class="box1" onclick="okk()">
-                        <img src="vid/vd12.jpg" data-id="uZZ-OaTbuJc"  width="100%" height="100%">
-                        <div class="youtube_icon">
-                            <img src="" >
-                        </div>
-                    </div>
+    <div id="top1">
+        <div class="container ma">
+            <div id="top-width">
+                <img src="img/coner.png" alt="" width="100%" height="100%">
+                <div id="top-song1">
+                    Top View
                 </div>
             </div>
         </div>
-        <div id="forview">
-           <img src="gift/p2.gif" alt="" width="100%" height="100%">
-        </div>
-        <div class="title">
-            <img src="coner.png" alt="" width="100%" height="100%">
-            <p>ចម្រៀង</p>
-        </div>
-        <div class="un">
-            <hr>
-        </div>
-    </div>  
-</div>     
-    
-
-<!--video box2///////////////////////////////////////////////////////////////////-->
-<div class="BB">
-    <div class="container">
-        <div class="controll" id="com">
-            <div class="block1">
-                <div class="box1" onclick="okk()">
-                    <img src="img/song1.webp" data-id="2Q_-zmESFHo" width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="">
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/profile_card.jpg" data-id="xP09I3LKjQU?rel=0" width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="" >
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/timeline.jpg" data-id="chaGhpMN980?rel=0"  width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="" >
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/mobile_app.jpg" data-id="_08Q2hq3U9Q?rel=0"  width="100%" height="100%">
-                    <div class="youtube_icon active">
-                        <img src="" >
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/lazy_load.jpg" data-id="pQeHyom613Q?rel=0"  width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="">
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="img/song1.webp" data-id="2Q_-zmESFHo" width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="">
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/profile_card.jpg" data-id="xP09I3LKjQU?rel=0" width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="" >
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/timeline.jpg" data-id="chaGhpMN980?rel=0"  width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="" >
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/mobile_app.jpg" data-id="_08Q2hq3U9Q?rel=0"  width="100%" height="100%">
-                    <div class="youtube_icon active">
-                        <img src="" >
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/lazy_load.jpg" data-id="pQeHyom613Q?rel=0"  width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="">
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="img/song1.webp" data-id="2Q_-zmESFHo" width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="">
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/profile_card.jpg" data-id="xP09I3LKjQU?rel=0" width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="" >
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/timeline.jpg" data-id="chaGhpMN980?rel=0"  width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="" >
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/mobile_app.jpg" data-id="_08Q2hq3U9Q?rel=0"  width="100%" height="100%">
-                    <div class="youtube_icon active">
-                        <img src="" >
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/lazy_load.jpg" data-id="pQeHyom613Q?rel=0"  width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="forview">
-            <img src="gift/p1.gif" alt="" width="100%" height="100%">
-        </div>
-        <div class="title">
-            <img src="coner.png" alt="" width="100%" height="100%">
-            <p>ចម្រៀង</p>
-        </div>
-        <div class="un">
-            <hr>
-        </div>
-    </div>  
-</div>    
-
-<!--video box3///////////////////////////////////////////////////////////////////-->
-<div class="BB">
-    <div class="container">
-        <div class="controll" id="com">
-            <div class="block1">
-                <div class="box1" onclick="okk()">
-                    <img src="img/song1.webp" data-id="2Q_-zmESFHo" width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="">
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/profile_card.jpg" data-id="xP09I3LKjQU?rel=0" width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="" >
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/timeline.jpg" data-id="chaGhpMN980?rel=0"  width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="" >
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/mobile_app.jpg" data-id="_08Q2hq3U9Q?rel=0"  width="100%" height="100%">
-                    <div class="youtube_icon active">
-                        <img src="" >
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/lazy_load.jpg" data-id="pQeHyom613Q?rel=0"  width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="">
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="img/song1.webp" data-id="2Q_-zmESFHo" width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="">
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/profile_card.jpg" data-id="xP09I3LKjQU?rel=0" width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="" >
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/timeline.jpg" data-id="chaGhpMN980?rel=0"  width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="" >
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/mobile_app.jpg" data-id="_08Q2hq3U9Q?rel=0"  width="100%" height="100%">
-                    <div class="youtube_icon active">
-                        <img src="" >
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/lazy_load.jpg" data-id="pQeHyom613Q?rel=0"  width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="">
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="img/song1.webp" data-id="2Q_-zmESFHo" width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="">
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/profile_card.jpg" data-id="xP09I3LKjQU?rel=0" width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="" >
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/timeline.jpg" data-id="chaGhpMN980?rel=0"  width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="" >
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img src="images/mobile_app.jpg" data-id="_08Q2hq3U9Q?rel=0"  width="100%" height="100%">
-                    <div class="youtube_icon active">
-                        <img src="" >
-                    </div>
-                </div>
-                <div class="box1" onclick="okk()">
-                    <img  data-search="love" src="images/lazy_load.jpg" data-id="pQeHyom613Q?rel=0"  width="100%" height="100%">
-                    <div class="youtube_icon">
-                        <img src="">
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div id="forview">
-            <img src="gift/p1.gif" alt="" width="100%" height="100%">
-        </div>
-        <div class="title">
-            <img src="coner.png" alt="" width="100%" height="100%">
-            <p>ចម្រៀង</p>
-        </div>
-        <div class="un">
-            <hr>
-        </div>
-    </div>  
-</div>    
-
-<!--About///////////////////////////////////////////////////////////////-->
-<div class="about"  style="float: left; width: 100%;height: 8.6cm;">
-    <div class="container" style="background-color: rgb(13, 65, 88); height: 8.6cm;">
-        A
     </div>
-</div>
-   <!--bottom of phone-->
-<div id="allbottom">
-<div id="bottom" style="background-color: rgb(63, 63, 63); width: 100%; bottom: 0; position: fixed;">
-   <div class="col-3 " style="background-color: rgb(61, 61, 61); float: left;">
-    <img src="home-3-xl.png" alt="" width="30px" height="30px" style="margin: 4px 4px;">
-   </div>
-   <div class="col-3 " style="background-color: rgb(65, 65, 65); float: left;">
-    <img src="—Pngtree—play video icon graphic design_3990515.png" alt="" width="30px" height="30px" style="margin: 4px 4px;">
-   </div> 
-   <div class="col-3" style="background-color: rgb(53, 53, 53); float: left;">
-    <img src="youtube.png" alt="" width="30px" height="30px" style="margin: 4px 4px;">
-   </div>
-   <div class="col-3" style="background-color: rgb(51, 51, 51); float: left;">
-    <img src="comedy-icon-png-3.jpg" alt="" width="30px" height="30px" style="margin: 4px 4px;">
-   </div>
-</div>
-</div>
+
+    <div id="content-chil1">
+        <div class="container ma">
+            <div id="content-chil1-width">
+                <div id="block">
+                    <div id="allvd1" class="item " title="coffee1">
+                        <div id="vd1">
+                            <img  src="img/v0.jpg" alt="" width="100%" height="100%" onclick="myFunction(this);">
+                        </div>
+                        <div id="title1">
+                            <p id="p1" style="background-color: rgb(255, 196, 0);">Good Coffee</p>
+                        </div>
+                        <div id="title2">
+                            <p>បទៈក្បែបងជិះកង់ <br>ច្រៀងដោយៈ ពេជ្យ ជេត្រា</p>
+                        </div>
+                    </div>
+                    <div id="allvd1" class="item " title="coffee2">
+                        <div id="vd1">
+                            <img src="img/v2.jpg" alt="" width="100%" height="100%" onclick="myFunction(this);">
+                        </div>
+                        <div id="title1">
+                            <p id="p1" style="background-color: rgb(255, 0, 0);">Good Coffee</p>
+                        </div>
+                        <div id="title2" title="item coffe1">
+                            <p>បទៈក្បែបងជិះកង់ <br>ច្រៀងដោយៈ ពេជ្យ ជេត្រា</p>
+                        </div>
+                    </div>
+                    <div id="allvd1" class="item " title="coffee3">
+                        <div id="vd1">
+                            <img src="img/v1.jpg" alt="" width="100%" height="100%" onclick="myFunction(this);">
+                        </div>
+                        <div id="title1">
+                            <p id="p1" style="background-color:turquoise;">Good Coffee</p>
+                        </div>
+                        <div id="title2">
+                            <p>បទៈក្បែបងជិះកង់ <br>ច្រៀងដោយៈ ពេជ្យ ជេត្រា</p>
+                        </div>
+                    </div>
+                    <div id="allvd1" class="item " title="coffee4">
+                        <div id="vd1">
+                            <img src="img/v3.jpg" alt="" width="100%" height="100%" onclick="myFunction(this);">
+                        </div>
+                        <div id="title1">
+                            <p id="p1" style="background-color: rgb(0, 180, 0);">Good Coffee</p>
+                        </div>
+                        <div id="title2">
+                            <p>បទៈក្បែបងជិះកង់ <br>ច្រៀងដោយៈ ពេជ្យ ជេត្រា</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="ad">
+                <img src="gift/coffeegift1.jpg" alt="" width="100%" height="100%">
+            </div>
+        </div>
+    </div>
 
 <script>
-    $(document).ready(function () {
-        $(".box1").click(function () {
-            let youtube_id = $(this).children("img").attr("data-id");
-            $(this).children(".youtube_icon")
-                .addClass("active").parent()
-                .siblings()
-                .children(".youtube_icon")
-                .removeClass("active")
+    var slideIndex = 1;
+    showSlides(slideIndex);
+    
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+    
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("myslides");
+      var dots = document.getElementsByClassName("demo");
+      if (n >= slides.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+      }
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      
+    }
+    </script>
 
-            let newUrl = `https://www.youtube.com/embed/${youtube_id}`;
-            $("#video_id").attr("src", newUrl);
+    </script>
+    <script>
+        var a=document.getElementById("x1");
+        var x=document.getElementById("xx");
+        var sb=document.getElementById("bsearch");
+        function see(){
+            sb.style.display='block';
+            x.style.display='block';
+            a.style.display='none';
+        }
+        function see1(){
+            x.style.display='none';
+            a.style.display='block';
+            sb.style.display='none';
+        }
+    </script>
 
-        });
-        //due to slow connection video is playing slow
-        // you can call your playlist using youtube api
-    });
+    <script>
+        var vii=document.getElementById("top1");
+        var vi=document.getElementById("top");
+    function myFunction(imgs) {
+      var tv=document.getElementById("content2");
+      var expandImg = document.getElementById("expandedImg");
+      var imgText = document.getElementById("imgtext");
+      expandImg.src = imgs.src;
+      imgText.innerHTML = imgs.alt;
+      expandImg.parentElement.style.display = "block";
+      tv.style.display='block';
+      vii.style.display='block';
+      vi.style.display='none';
+     
+    }
+    </script>
+            
 
-</script>
-
-</body>
+    <script>
+        var tv=document.getElementById("content2");
+        function ok(){
+        tv.style.display='none';
+        vi.style.display='block';
+        vii.style.display='none';
+        }
+    </script>
 
 <script>
     $(document).ready(function() {
@@ -576,7 +310,7 @@ $.each(images, function(i, l){
 }); //hide all images
 searchValue = $("#filter").val(); //get entered value of input field
 searchValueRE = new RegExp(searchValue, "i"); //convert search value into RegExp
-output = $.grep(images, function (n) {return searchValueRE.test(n.className); }); //Returns array that matches input value
+output = $.grep(images, function (n) {return searchValueRE.test(n.title); }); //Returns array that matches input value
 $.each(output, function(i, l){
     $(l).show();
 }); //show matched images
@@ -584,28 +318,14 @@ $.each(output, function(i, l){
 });
 </script>
 
-<script src="javascript.js"></script>
-    
 <script>
-  
-
-$(document).ready(function(){
-    $('.more').click(function(){
-       $('#more1').slideToggle();
-    });
-});
-
-
-
-$(document).ready(function(){
-    $('#menu-logo-phone1').click(function(){
-        $('#items-menu-phone').slideToggle();
-        $('#altt').slideToggle(0);
+    var vd0=document.getElementById("content");
+    var vd1=document.getElementById("polo");
+    function videos(){
+        vd1.style.display='block';
         
-    });
-});
-
-
-
+    }
 </script>
+      
+</body>
 </html>
