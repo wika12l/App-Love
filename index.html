@@ -3,329 +3,326 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coffee_app</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="jquery-3.5.1.min.js"></script>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="venobox/venobox.css" type="text/css" media="screen" />
-    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script type="text/javascript" src="venobox/venobox.min.js"></script>
-    <meta name="apple-mobile-web-app-capable" content="yes"/>
-    <meta name="mobile-web-app-capable" content="yes"/>
-    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
-    <meta name="apple-mobile-web-app-title" content="Sabay news"/>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
-<body>
+<body id="body">
+
     <div id="head">
-        <div class="container ma">
+        <div class="container" id="ma">
             <div id="head-width">
-                <div id="logo">
-                    <img id="img1" src="icon/coffee1.png" alt="" width="100%" height="100%">
-                    <img id="img2" src="icon/menu.png" alt="" width="100%" height="100%">
+                <div id="logo"> 
+                    <span style="color: rgb(255, 0, 0);">Al</span>axsca
+                    </div>
+                        <div id="search">
+                           <input type="text" placeholder="Search...">
+                                <div id="searchimg">
+                            <img src="icon/search.png" width="35px" height="35px" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div id="showmen">
+                    <img src="icon/menu.png" width="100%" height="100%" alt="">
+                    <div id="bttext">Starndard</div>
                 </div>
 
-                <div id="menu">
+                <div id="user">
+                    <img src="icon/user.jpg" width="100%" height="100%" alt="">
+                </div>
+                <div id="mode">
+                    <img src="icon/log.jpg" alt="">
+                </div>
+                <div id="item">
                     <ul>
-                        <li><a href="file:///C:/Users/Thanak/Documents/Coffee%20app/index.html#">Home</a></li>
-                        <li><a id="m5" onclick="videos()" href="file:///C:/Users/Thanak/Documents/Coffee%20app/video.html">Video</a></li>
-                        <li><a id="m4" href="https://wika12l.github.io/applove.com/">Doll</a></li>
-                        <li><a id="m3" href="#"><b>...</b></a></li>
-                        <li><a id="m2" href="#">Shoping</a></li>
-                        <li><a id="m1" href="#">More</a></li>
+                        <li><a href="#" onclick="okk1()" id="m1">Standard</a></li>
+                        <li><a href="#" onclick="okk2()" id="m2">List</a></li>
+                        <li><a href="#" onclick="okk3()" id="m3">Deficult</a></li>
                     </ul>
                 </div>
+            </div>
+        </div>
+    </div>
 
-                <div id="sell">
-                    <img src="icon/buy.png" alt="" width="20px" height="25px">
+    <div id="headphon">
+        <div class="container" id="ma">
+            <div id="home-menuphon">
+                <ul>
+                    <li><a href="#"><img src="icon/hom.png" height="30px" width="30px" alt=""></a></li>
+                    <li><a href="#"><img src="icon/video.png" height="30px" width="30px" alt=""></a></li>
+                    <li><a href="#"><img src="icon/library.png" height="30px" width="30px" alt=""></a></li>
+                    <li><a href="#"><img src="icon/help.png" height="30px" width="30px" alt=""></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="container ma" style="height: 24cm;">
+        <div id="con-width">
+            <div id="home-menu">
+                <ul>
+                    <li><a href="#"><img src="icon/hom.png" height="25px" width="23px" alt="">Home</a></li>
+                    <li><a href="#"><img src="icon/video.png" height="25px" width="25px" alt="">Video</a></li>
+                    <li><a href="#"><img src="icon/library.png" height="25px" width="25px" alt="">Library</a></li>
+                    <li><a href="#"><img src="icon/help.png" height="25px" width="25px" alt="">PRO-V</a></li>
+                </ul>
+            </div>
+
+            <div id="row-menu">
+                <ul>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Video</a></li>
+                    <li><a href="#">Movie</a></li>
+                    <li><a href="#">Animation</a></li>
+                    <li><a href="#">Entertaintment</a></li>
+                </ul>
+            </div>
+        
+            <div id="phonemen">
+                <b><span id="fo">For you</span> /<span id="you"> Following</span></b>
+            </div>
+
+            <div id="allcon">
+                <div id="content">
+                    <img id="main" height="100%" src="banner/b2.jpg" alt="">
+                </div>
+                <p id="tit">Alax-sca សុំទោសស្វាយរៀង [Audio] <br>ច្រៀងដោយ៖​ ឋានៈ</p>
+                <div id="bottom">
+                    <p>Views 7M</p>
+                </div>
+                <div id="bottom">
+                    <img src="icon/share.png" alt=""  height="25px">
+                    <p>Share</p>
                 </div>
 
-                <div id="search">
-                    <img id="x1" src="icon/search.png" onclick="see()" alt="" height="25px" width="25px">
-                    <img id="xx" src="icon/x.png" onclick="see1()" alt="" height="25px" width="25px">
+                <div id="bottom">
+                    <img src="icon/heart.png" alt=""  height="20px">
+                    <p>Heart</p>
+                </div>
+
+                <div id="bottom">
+                    <img src="icon/like.png" alt=""  height="20px">
+                    <p>Like-m</p>
+                </div>
+
+                <div id="folo" onclick="fo1()">
+                    <p >Follow</p>
+                </div>
+                <div id="folo2" onclick="fo2()">
+                    <p >Following</p>
+                </div>
+
+                <div id="comment">
+                    <input type="text" id="ttext" placeholder="Comment...">
+                    <img onclick="send()" src="icon/telegram.png" alt="">
+                </div>
+
+                <div id="recom">
+                    <div id="block">
+                        <img src="banner/b4.webp" alt="">
+                    </div>
+                    <div id="block">
+                        <img src="banner/b3.jpg" alt="">
+                    </div>
+                    <div id="block">
+                        <img src="banner/b2.jpg" alt="">
+                    </div>
+                    <div id="block">
+                        <img src="banner/b1.jpg" alt="">
+                    </div>
+                    <div id="block">
+                        <img src="song/ទេពធីតា.webp" alt="">
+                    </div>
+                    <div id="block">
+                        <img src="song/ជាតិក្រោយសុំកើតជាអ្នកមាន.webp" alt="">
+                    </div>
                 </div>
             </div>
 
-            <div id="recomment-width">
-                <div id="re-tit">
-                    Recomment
+            <div id="contentad">
+                <div id="box">
+                    <a href="file:///C:/Users/Thanak/Desktop/test%20web/index.html#"><img onclick="myFunction(this);" src="song/happy.jpg" alt="Alax-sca សុំទោសស្វាយរៀង [Audio] <br>ច្រៀងដោយ៖​ ឋានៈ"></a>
+                    <div id="title"​>
+                        សុំទោសស្វាយរៀង <br>ច្រៀងដោយ៖​ ឋានៈ <br><span style="color: rgb(255, 0, 81);">21/11/2021</span>
+                    </div>
+                </div>
+                <div id="spac">a</div>
+                <div id="box">
+                    <a href="file:///C:/Users/Thanak/Desktop/test%20web/index.html#"><img onclick="myFunction(this);" src="song/vd8.webp" alt="Alax-sca សល់ឆ្អឹងមួយចាន [Audio] <br>ច្រៀងដោយ៖​ ពេជ្យ ថាណា"></a>
+                    <div id="title">
+                        សល់ឆ្អឹងមួយចាន [Audio]<br>ច្រៀងដោយ៖​ ពេជ្យ ថាណា <br><span style="color: rgb(255, 0, 81);">21/11/2021</span>
+                    </div>
+                </div>
+                <div id="spac">a</div>
+                <div id="box">
+                    <a href="file:///C:/Users/Thanak/Desktop/test%20web/index.html#"><img onclick="myFunction(this);" src="banner/b1.jpg" alt=""></a>
+                    <div id="title">
+                        សុំទោសស្វាយរៀង <br>ច្រៀងដោយ៖​ ឋានៈ <br><span style="color: rgb(255, 0, 81);">21/11/2021</span>
+                    </div>
+                </div>
+                <div id="spac">a</div>
+                <div id="box">
+                    <a href="file:///C:/Users/Thanak/Desktop/test%20web/index.html#"><img onclick="myFunction(this);" src="banner/b2.jpg" alt="Happy New Years <br>ច្រៀងដោយ៖​ ខេមរៈ សិរីមន្ដ"></a>
+                    <div id="title">
+                        Happy New Years <br>ច្រៀងដោយ៖​ ខេមរៈ សិរីមន្ដ <br><span style="color: rgb(255, 0, 81);">21/11/2021</span>
+                    </div>
+                </div>
+                <div id="spac">a</div>
+                <div id="box">
+                    <a href="file:///C:/Users/Thanak/Desktop/test%20web/index.html#"><img onclick="myFunction(this);" src="song/ជាតិក្រោយសុំកើតជាអ្នកមាន.webp" alt=""></a>
+                    <div id="title">
+                        សុំទោសស្វាយរៀង <br>ច្រៀងដោយ៖​ ឋានៈ <br><span style="color: rgb(255, 0, 81);">21/11/2021</span>
+                    </div>
+                </div>
+                <div id="box">
+                    <a href="file:///C:/Users/Thanak/Desktop/test%20web/index.html#"><img onclick="myFunction(this);" src="song/យកជីវិតចងដៃថ្ងៃអូនការ.webp" alt=""></a>
+                    <div id="title">
+                        សុំទោសស្វាយរៀង <br>ច្រៀងដោយ៖​ ឋានៈ <br><span style="color: red;">21/11/2021</span>
+                    </div>
+                </div>
+                <div id="spac">a</div>
+                <div id="box">
+                    <a href="file:///C:/Users/Thanak/Desktop/test%20web/index.html#"><img onclick="myFunction(this);" src="banner/b3.jpg" alt=""></a>
+                    <div id="title">
+                        សុំទោសស្វាយរៀង <br>ច្រៀងដោយ៖​ ឋានៈ <br><span style="color: rgb(255, 0, 81);">21/11/2021</span>
+                    </div>
+                </div>
+                <div id="spac">a</div>
+                <div id="box">
+                    <a href="file:///C:/Users/Thanak/Desktop/test%20web/index.html#"><img onclick="myFunction(this);" src="song/ពឺតៗ.webp" alt=""></a>
+                    <div id="title">
+                        សុំទោសស្វាយរៀង <br>ច្រៀងដោយ៖​ ឋានៈ <br><span style="color: rgb(255, 0, 81);">21/11/2021</span>
+                    </div>
+                </div>
+                <div id="spac">a</div>
+                <div id="box">
+                    <a href="file:///C:/Users/Thanak/Desktop/test%20web/index.html#"><img onclick="myFunction(this);" src="banner/b4.webp" alt=""></a>
+                    <div id="title">
+                        សុំទោសស្វាយរៀង <br>ច្រៀងដោយ៖​ ឋានៈ <br><span style="color: rgb(255, 0, 81);">21/11/2021</span>
+                    </div>
+                </div>
+                <div id="spac">a</div>
+                <div id="box">
+                    <a href="file:///C:/Users/Thanak/Desktop/test%20web/index.html#"><img onclick="myFunction(this);" src="song/vd5.webp" alt=""></a>
+                    <div id="title">
+                        សុំទោសស្វាយរៀង <br>ច្រៀងដោយ៖​ ឋានៈ <br><span style="color: rgb(255, 0, 81);">21/11/2021</span>
+                    </div>
+                </div>
+            </div>
+            <div id="com">
+                Your Comment
+
+                <div id="nocom">
+                    Not!
+                </div>
+                <div id="rowcom">
+                    <img src="icon/user.jpg" alt="">
+                    <p id="p">hvhhh</p>
                 </div>
             </div>
         </div>
     </div>
 
-    <div id="bsearch" style="position: sticky; top: 1.7cm;">
-        <div class="container ma">
-            <div id="ss">
-               
-                <fieldset>
-                    <input type="text" lang="khmer" class="text-input" id="filter" placeholder="Search..." />
-                    <span id="filter-count"></span>
-                </fieldset>
-                
+    
+
+    <div class="container">
+        <div id="about">
+            <div id="aa">
+                a
+            </div>
+            <div id="bb">
+                a
             </div>
         </div>
     </div>
-
-    <div id="content">
-        <div class="container ma">
-            <div id="content-width">
-                <div id="banner">
-                    <div class="mySlides">
-                        <img id="polo" src="img/v1.jpg"  style="width:100%; height: 100%;" >
-                    </div>
-                    <div class="mySlides">
-                        <img src="img/v4.jpg" style="width:100%; height: 100%;" >
-                    </div>
-                    <div class="mySlides">
-                        <img src="img/v5.jpg" style="width:100%; height: 100%;" >
-                    </div>
-                    <div class="mySlides">
-                        <img src="img/v6.jpg" style="width:100%; height: 100%;" >
-                    </div>
-                    <div class="mySlides" id="video">
-                        <img src="img/v7.jpg" style="width:100%; height: 100%;" >
-                    </div>
-                    <div class="mySlides">
-                        <img src="img/v2.jpg" style="width:100%; height: 100%;">
-                    </div>
-                    <div class="mySlides">
-                        <img src="img/v2.jpg" style="width:100%; height: 100%;">
-                    </div>
-                </div>
-                <a id="prev" onclick="plusSlides(-1)">❮</a>
-                <div id="hovertop">
-                    <p>Good Coffee</p>
-                </div>
-                <a id="next" onclick="plusSlides(1)">❯</a>
-            </div>
-
-            <div id="re1">
-                <div id="block-re">
-                    <div id="row">
-                        <div id="box">
-                            <img src="gift/coffeegift1.jpg" alt="" width="100%" height="100%">
-                        </div>
-                        <div id="title-re">
-                            <p>Hello</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div id="ad">
-                <img src="gift/coffeegift2.jpg" alt="" width="100%" height="100%">
-            </div>
-            <div id="ad0">
-                <img src="gift/coffeegift3.jpg" alt="" width="100%" height="100%">
-            </div>
-        </div>
-    </div>
-
-    <div id="content2" style="position: absolute; margin-top: -10cm; position: sticky; top: 1.5cm;">
-        <div class="container ma">
-            <div id="content-width">
-                <div id="banner">
-                    <div class="mySlides">
-                            <img id="expandedImg">
-                            <div id="imgtext">
-                        </div>
-                    </div>
-                    <img src="icon/close.png" id="closebtn" onclick="ok()" height="100%" width="100%" alt="">
-                </div>
-                <div id="hovertop">
-                    <p>Coffe</p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="top">
-        <div class="container ma">
-            <div id="top-width">
-                <img src="img/coner.png" alt="" width="100%" height="100%">
-                <div id="top-song">
-                    Current
-                </div>
-            </div>
-
-            <div id="top-re">
-                <img src="img/conernew.png" alt="" width="100%" height="100%">
-                <div id="top-song-re">
-                   news
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="top1">
-        <div class="container ma">
-            <div id="top-width">
-                <img src="img/coner.png" alt="" width="100%" height="100%">
-                <div id="top-song1">
-                    Top View
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="content-chil1">
-        <div class="container ma">
-            <div id="content-chil1-width">
-                <div id="block">
-                    <div id="allvd1" class="item " title="coffee1">
-                        <div id="vd1">
-                            <img  src="img/v0.jpg" alt="" width="100%" height="100%" onclick="myFunction(this);">
-                        </div>
-                        <div id="title1">
-                            <p id="p1" style="background-color: rgb(255, 196, 0);">Good Coffee</p>
-                        </div>
-                        <div id="title2">
-                            <p>បទៈក្បែបងជិះកង់ <br>ច្រៀងដោយៈ ពេជ្យ ជេត្រា</p>
-                        </div>
-                    </div>
-                    <div id="allvd1" class="item " title="coffee2">
-                        <div id="vd1">
-                            <img src="img/v2.jpg" alt="" width="100%" height="100%" onclick="myFunction(this);">
-                        </div>
-                        <div id="title1">
-                            <p id="p1" style="background-color: rgb(255, 0, 0);">Good Coffee</p>
-                        </div>
-                        <div id="title2" title="item coffe1">
-                            <p>បទៈក្បែបងជិះកង់ <br>ច្រៀងដោយៈ ពេជ្យ ជេត្រា</p>
-                        </div>
-                    </div>
-                    <div id="allvd1" class="item " title="coffee3">
-                        <div id="vd1">
-                            <img src="img/v1.jpg" alt="" width="100%" height="100%" onclick="myFunction(this);">
-                        </div>
-                        <div id="title1">
-                            <p id="p1" style="background-color:turquoise;">Good Coffee</p>
-                        </div>
-                        <div id="title2">
-                            <p>បទៈក្បែបងជិះកង់ <br>ច្រៀងដោយៈ ពេជ្យ ជេត្រា</p>
-                        </div>
-                    </div>
-                    <div id="allvd1" class="item " title="coffee4">
-                        <div id="vd1">
-                            <img src="img/v3.jpg" alt="" width="100%" height="100%" onclick="myFunction(this);">
-                        </div>
-                        <div id="title1">
-                            <p id="p1" style="background-color: rgb(0, 180, 0);">Good Coffee</p>
-                        </div>
-                        <div id="title2">
-                            <p>បទៈក្បែបងជិះកង់ <br>ច្រៀងដោយៈ ពេជ្យ ជេត្រា</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div id="ad">
-                <img src="gift/coffeegift1.jpg" alt="" width="100%" height="100%">
-            </div>
-        </div>
-    </div>
+</body>
+<script>
+    var j1=document.getElementById("m1");
+    var j2=document.getElementById("m2");
+    var j3=document.getElementById("m3");
+    var f1=document.getElementById("folo");
+    var f2=document.getElementById("folo2");
+    var ii=document.getElementById("item");
+    function okk1(){
+        document.getElementById("bttext").innerHTML ="Standard";
+        j1.style.display='none';
+        j2.style.display='block';
+        j3.style.display='block';
+    }
+    function okk2(){
+        document.getElementById("bttext").innerHTML ="List";
+        j1.style.display='block';
+        j2.style.display='none';
+        j3.style.display='block';
+    }
+    function okk3(){
+        document.getElementById("bttext").innerHTML ="Deficult";
+        j3.style.display='none';
+        j1.style.display='block';
+    }
+    function fo1(){
+        f1.style.display='none';
+        f2.style.display='block';
+    }
+    function fo2(){
+        f1.style.display='block';
+        f2.style.display='none';
+        alert("You're Unfollowing!");
+    }
+</script>
 
 <script>
-    var slideIndex = 1;
-    showSlides(slideIndex);
-    
-    function plusSlides(n) {
-      showSlides(slideIndex += n);
+    var dd=document.getElementById("x");
+    var dd2=document.getElementById("y");
+    function dak(){
+        dd.style.display='block';
+        dd2.style.display='none';
     }
-    
-    function currentSlide(n) {
-      showSlides(slideIndex = n);
+    function dak1(){
+        dd2.style.display='block';
+        dd.style.display='none';
     }
-    function showSlides(n) {
-      var i;
-      var slides = document.getElementsByClassName("myslides");
-      var dots = document.getElementsByClassName("demo");
-      if (n >= slides.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = slides.length}
-      for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      
-    }
-    </script>
+</script>
 
-    </script>
-    <script>
-        var a=document.getElementById("x1");
-        var x=document.getElementById("xx");
-        var sb=document.getElementById("bsearch");
-        function see(){
-            sb.style.display='block';
-            x.style.display='block';
-            a.style.display='none';
-        }
-        function see1(){
-            x.style.display='none';
-            a.style.display='block';
-            sb.style.display='none';
-        }
-    </script>
-
-    <script>
-        var vii=document.getElementById("top1");
-        var vi=document.getElementById("top");
+<script>
     function myFunction(imgs) {
-      var tv=document.getElementById("content2");
-      var expandImg = document.getElementById("expandedImg");
-      var imgText = document.getElementById("imgtext");
+      var expandImg = document.getElementById("main");
+      var imgText = document.getElementById("tit");
       expandImg.src = imgs.src;
       imgText.innerHTML = imgs.alt;
       expandImg.parentElement.style.display = "block";
-      tv.style.display='block';
-      vii.style.display='block';
-      vi.style.display='none';
-     
     }
-    </script>
-            
-
-    <script>
-        var tv=document.getElementById("content2");
-        function ok(){
-        tv.style.display='none';
-        vi.style.display='block';
-        vii.style.display='none';
-        }
-    </script>
-
-<script>
-    $(document).ready(function() {
-var images = $(".item") //contain all unfiltered images
-$("#filter").on("change paste keyup", function(){
-$.each(images, function(i, l){
-    $(l).hide();
-}); //hide all images
-searchValue = $("#filter").val(); //get entered value of input field
-searchValueRE = new RegExp(searchValue, "i"); //convert search value into RegExp
-output = $.grep(images, function (n) {return searchValueRE.test(n.title); }); //Returns array that matches input value
-$.each(output, function(i, l){
-    $(l).show();
-}); //show matched images
-});
-});
 </script>
 
 <script>
-    var vd0=document.getElementById("content");
-    var vd1=document.getElementById("polo");
-    function videos(){
-        vd1.style.display='block';
+    $(document).ready(function(){
+    $('#bttext').click(function(){
+        $('#item ul').slideToggle();
         
-    }
+    });
+});
 </script>
-      
-</body>
+
+<script>
+    var noo=document.getElementById("nocom");
+    var rowc=document.getElementById("rowcom");
+    var pp=document.getElementById("pp");
+    function send(){
+    var cc=document.getElementById("ttext").value;
+        if(cc==""){
+            
+        }
+        else{
+            noo.style.display='none';
+            rowc.style.display='block';
+            document.getElementById("p").innerHTML=cc;
+            document.getElementById('ttext').value = '';
+
+        }
+    }
+    
+</script>
 </html>
