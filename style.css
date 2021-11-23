@@ -738,12 +738,8 @@
         height: 6cm;
     }
     }
+    
     @media (max-width:390px){
-    #content{
-        height: 5cm;
-    }
-    }
-    @media (max-width:365px){
     #content{
         height: 5cm;
     }
