@@ -743,7 +743,7 @@
         height: 5cm;
     }
     }
-    @media (max-width:358px){
+    @media (max-width:360px){
     #content{
         height: 5cm;
     }
