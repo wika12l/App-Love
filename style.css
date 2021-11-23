@@ -743,3 +743,27 @@
         height: 5cm;
     }
     }
+    @media (max-width:358px){
+    #content{
+        height: 5cm;
+    }
+    #recom{
+        height: 8cm;
+    }
+    #block img{
+        height: 2.37cm;
+        width: 46%;
+    }
+    #bottom{
+        width: 10%;
+    }
+    #box{
+        height: 2cm;
+    }
+    #box img{
+        width: 3cm;
+    }
+    #title{
+        font-size: 16px;
+    }
+    }
